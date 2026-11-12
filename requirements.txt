@@ -1,0 +1,4 @@
+# Dependências do Projeto (Node.js)
+node-fetch>=3.0.0
+readline-sync>=1.4.10
+dotenv>=16.0.0
