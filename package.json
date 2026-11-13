@@ -2,15 +2,24 @@
   "name": "previsao-tempo-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "js/main.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leozn96/previsao-tempo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Leozn96/previsao-tempo/issues"
+  },
+  "homepage": "https://github.com/Leozn96/previsao-tempo#readme",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "dotenv": "^18.0.10",
+    "readline-sync": "^1.4.10"
   }
 }
